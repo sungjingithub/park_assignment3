@@ -79,7 +79,7 @@ public class CAI3 {
 	}
 	static boolean displayCompletionMessage(float score) {
 		String tryAnswer;
-		System.out.println("Your total score was " + score*100 + "%\n");
+		System.out.println("Your total score was " + (int)(score*100) + "%\n");
 		
 		if(score < 0.75f) {
 			System.out.println("Please ask your teacher for extra help.");
